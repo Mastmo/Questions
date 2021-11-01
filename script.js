@@ -42,7 +42,7 @@ let answ3 = parseInt(quest3);
 let quest4 = prompt("What is both yours and mine numbers combined?");
 let answ4 = parseInt(quest4);
 let link = " https://mastmo.github.io/handleliste/";
-let message = "Gratulerer! her er premien din:" + link;
+let message = "Hurray! Here is your reward:" + link;
 
   if (answ4 === randomnum1 + randomnum2 + answ1 + answ3) {
     alert("Very good " + hi + ", you can math well!");
